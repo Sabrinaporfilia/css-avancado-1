@@ -1,0 +1,26 @@
+p::first-letter {
+    color: coral
+}
+
+#paragrafo::first-line {
+    color:blue
+}
+
+li::marker {
+    color: red;
+    font-size: 23px;
+
+}
+
+.before::before {
+    content: "";
+    background:url(images/logo.ico) center center no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.after::after {
+    content: url(images/logo.ico);
+
+}
